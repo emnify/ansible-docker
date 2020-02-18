@@ -1,5 +1,6 @@
 FROM python:2
 
-RUN pip install ansible boto boto3 netaddr
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
 
 CMD ["/bin/bash"]
