@@ -1,6 +1,6 @@
 FROM python:3
 
-LABEL maintainer="EMnify <devops@emnify.com>" \
+LABEL maintainer="EMnify (https://github.com/EMnify)" \
   org.label-schema.name="Ansible Container" \
   org.label-schema.description="Ansible container to be used in CI pipelines" \
   org.label-schema.schema-version="1.0"
