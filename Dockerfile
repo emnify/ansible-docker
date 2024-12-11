@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.9.4
 
 LABEL maintainer="EMnify (https://github.com/EMnify)" \
   org.label-schema.name="Ansible Container" \
